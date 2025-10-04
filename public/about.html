@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #fceabb, #ffd6cc); 
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: 50px auto;
+        background-color: bisque; 
+        border-radius: 16px;
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+
+    .header {
+        background-color: teal; 
+        color: white;
+        padding: 25px;
+        text-align: center;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .header h1 {
+        margin: 0;
+        font-size: 2.2em;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+
+    .section {
+        padding: 20px;
+        border-bottom: 1px solid black; 
+    }
+
+    .section:last-child {
+        border-bottom: none;
+    }
+
+    .section h2 {
+        color: black;
+        margin-bottom: 12px;
+        font-size: 1.5em;
+        border-bottom: 2px solid #ffd6cc; 
+        display: inline-block;
+        padding-bottom: 4px;
+    }
+
+    .section p, .section ul {
+        margin: 8px 0;
+        color: #555;
+        line-height: 1.7;
+    }
+
+    ul {
+        list-style: inside circle; 
+        padding-left: 10px;
+    }
+
+    .contact-info p {
+        display: flex;
+        align-items: center;
+        margin: 6px 0;
+    }
+
+    .contact-info p span {
+        margin-left: 8px;
+    }
+
+    .section:hover {
+        background-color: turquoise;
+        transition: 0.3s ease;
+        border-radius: 12px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Bio Data</h1>
+        </div>
+
+        <div class="section">
+            <h2>Personal Information</h2>
+            <p><strong>Full Name:</strong> Aishwarya R C</p>
+            <p><strong>Gender:</strong> Female</p>
+            <p><strong>Nationality:</strong> Indian</p>
+            <p><strong>Marital Status:</strong> Single</p>
+        </div>
+
+        <div class="section contact-info">
+            <h2>Contact Information</h2>
+            <p>📧 <span>me@email.com</span></p>
+            <p>📞 <span>+91 12345 67890</span></p>
+            <p>🏠 <span>City, Country</span></p>
+        </div>
+
+        <div class="section">
+            <h2>Educational Qualifications</h2>
+            <p><strong>Degree:</strong> B.Sc. in Computer Science</p>
+            <p><strong>Institution:</strong> XYZ University</p>
+            <p><strong>Year of Passing:</strong> 2026</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming in Python, Java, C++</li>
+                <li>Web Development (HTML, CSS, JS)</li>
+                <li>Database Management</li>
+                <li>Problem Solving & Critical Thinking</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
